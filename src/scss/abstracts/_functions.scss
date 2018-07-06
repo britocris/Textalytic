@@ -1,0 +1,24 @@
+
+/// Returns color from color array
+/// @param {String} $key
+/// @return {Color}
+@function get-color($key: 'primary') {
+  @return map-get($colors, $key);
+}
+
+
+
+// ---
+// TINT
+// ---
+@function tint($color, $percentage) {
+  @return mix(white, $color, $percentage);
+}
+
+
+// ---
+// SHADE
+// ---
+@function shade($color, $percentage) {
+  @return mix(black, $color, $percentage);
+}

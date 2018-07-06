@@ -1,0 +1,14 @@
+extends ../templates/layout.pug
+include ../templates/mixins/header-nav
+block vars
+  -var title = "Inicio | Web Boilerplate"
+  -var description = "Web Boilerplate"
+block header
+  +active('inicio')
+
+block content
+  .container
+    h1 Index
+
+block footer
+  include ../templates/partials/footer.pug    

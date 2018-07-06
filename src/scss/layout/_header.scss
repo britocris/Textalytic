@@ -1,0 +1,16 @@
+
+.navbar {
+  .navbar-header {
+    .navbar-brand {
+      img { }
+    }
+  }
+  .navbar-nav {
+    li {
+      &.active a { }
+      a {
+        &:hover, &:active, &:focus { }
+      }
+    }
+  }
+}

@@ -1,0 +1,24 @@
+mixin active(activePage='inicio')
+  header(class="navbar navbar-default" id="navnav" role="banner")
+    .container
+      .navbar-header
+        button(class="navbar-toggle collapsed" type="button" data-toggle="collapse" data-target="#navbar-collapse" aria-expanded="false")
+          span(class="sr-only") Toggle navigation
+          span(class="icon-bar")
+          span(class="icon-bar")
+          span(class="icon-bar")
+        a(class="navbar-brand" href="index.html")
+          img(src="#")
+
+      nav(class="collapse navbar-collapse" id="navbar-collapse" role="navigation")
+        ul(class="nav navbar-nav navbar-right")
+          li(class={active : activePage == 'inicio'})
+            a(href="index.html") Inicio
+          li(class={active : activePage == 'uno'})
+            a(href="#") Uno
+          li(class={active : activePage == 'dos'})
+            a(href="#") Dos
+          li(class={active : activePage == 'tres'})
+            a(href="#") Tres
+          li(class={active : activePage == 'cuatro'})
+            a(href="#") Cuatro

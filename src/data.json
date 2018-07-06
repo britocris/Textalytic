@@ -1,0 +1,40 @@
+{
+  "testimonios": [
+    {
+      "nombre":      "Dra. María José Molina",
+      "cargo":       "Responsable de la Consulta de Cáncer en el Anciano",
+      "area":        "Sección de Oncología Médica",
+      "hospital":    "Hospital General Virgen de la Luz de Cuenca",
+      "mapa":        "mapas/cuenca.png",
+      "foto":        "doctores/maria-molina.png",
+      "proyecto":    "Implementación de una consulta de cáncer en el anciano",
+      "color":       "accent",
+      "video":       "paciente-2.jpg",
+      "cv":          "cv-maria-molina",
+      "proyectoPdf": "./pdf/testimonial-1.pdf",
+      "prologoPdf":  "./pdf/prologo-1.pdf"
+    },
+    {
+      "nombre":       "Dra. Carmen Rodríguez",
+      "cargo":        "Jefa del servicio de oncología médica del hospital Ramón y Cajal de Madrid",
+      "area":         "",
+      "hospital":     "",
+      "mapa":         "mapas/madrid.png",
+      "foto":         "doctores/carmen-rodriguez.png",
+      "proyecto":     "Creación de una consulta de cáncer familiar",
+      "color":        "naranja",
+      "video" :       "paciente-3.jpg"
+    },
+    {
+      "nombre":       "Dra. Tamara Redondo Elvira",
+      "cargo":        "Psicóloga especializada en Oncología",
+      "area":         "",
+      "hospital":     "Junta Local de Vigo Asociación Española Contra el Cáncer",
+      "mapa":         "mapas/vigo.png",
+      "foto":         "doctores/tamara-redondo.png",
+      "proyecto":     "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod",
+      "color":        "azul",
+      "video" :       "paciente-4.jpg"
+    }
+  ]
+}
