@@ -8,3 +8,45 @@ body{
   background: linear-gradient(to right, rgba(2,40,145,1) 0%, rgba(17,118,176,1) 100%);
 filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#022891', endColorstr='#1176b0', GradientType=1 );
 }
+
+.contenido{
+  margin-top: 100px;
+  .columna{
+    .titulo{
+      color: #fff;
+      font-size: 2.8em;
+      font-weight: 300;
+    }
+    .parrafo{
+      margin-top: 25px;
+      margin-bottom: 35px;
+      color: #fff;
+      font-size: 1.4em;
+      line-height: 1.7em;
+      font-weight: 300;
+    }
+    .boton{
+      border-radius: .25rem;
+      text-decoration: none;
+      background-color: #3ecf8e;
+      padding:            14px 40px;
+      border:             2px solid rgba(255,255,255,.85);
+      color:            #fff;
+      font-size:          13px;
+      font-weight:        600;
+      text-transform:     uppercase;
+      transition:         .2s ease-in;
+      &:hover{
+        background-color: #fff;
+        color:            #1176b0
+        }
+    }
+  }
+  .columna_img{
+    background-image: url("../img/banner/land.svg");
+    background-size: contain;
+    background-position: center center;
+    
+    /* background-size: cover; */
+  }
+}

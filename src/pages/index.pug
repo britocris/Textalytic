@@ -5,10 +5,18 @@ block vars
   -var description = "Web Boilerplate"
 block header
   +navbar('iniciar')
+  section
+  .main_content
+    .container.contenido
+      .row  
+        .col-md-6.columna
+          h1.titulo Natural Language Processing in the Browser
+          p.parrafo No more writing complex Python/R code or mastering various packages to get high-quality information from text. Textalytic handles pre-processing, analyzing, and visualization in an easy to use web interface for free.
+          a(href="").boton How It Works
+        .col-md-6.columna_img
 
 block content
   .container
-    h1 Index
 
 block footer
-  include ../templates/partials/footer.pug    
+  //- include ../templates/partials/footer.pug    
