@@ -133,7 +133,7 @@ conf.bower = {
     ' ./bower.json'
   ] ,
   overrides: {
-    bootstrap: {
+    bootstrap4: {
       main: ['./dist/js/bootstrap.js', './dist/css/bootstrap.css', './dist/fonts/*.*']
     },
     vegas: {
