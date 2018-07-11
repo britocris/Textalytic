@@ -6,17 +6,97 @@ block vars
 block header
   +navbar('iniciar')
   section
-  .main_content
-    .container.contenido
-      .row  
-        .col-md-6.columna
-          h1.titulo Natural Language Processing in the Browser
-          p.parrafo No more writing complex Python/R code or mastering various packages to get high-quality information from text. Textalytic handles pre-processing, analyzing, and visualization in an easy to use web interface for free.
-          a(href="").boton How It Works
-        .col-md-6.columna_img
+  
 
 block content
-  .container
+  section
+    .main_content
+      .container.contenido
+        .row  
+          .col-md-6.columna
+            h1.titulo Natural Language Processing in the Browser
+            p.parrafo No more writing complex Python/R code or mastering various packages to get high-quality information from text. Textalytic handles pre-processing, analyzing, and visualization in an easy to use web interface for free.
+            a(href="").boton How It Works
+          .col-md-6.columna_img
+
+    .container.text
+      .row
+        .col-md-12.preamble
+          h3.titulo Textalytic provides a fully featured text analysis platform!
+          p.parrafo Text Analysis is a complex and specialized task. Textalytic makes it super simple to extract insight from textual content.
+      .row
+        .col-lg-3.text-left.text-lg-center.feature.tarjeta
+          img(src="../img/imagenes/bootstrap.png", alt="").loguito
+          h5.titulo Bootstrap 4
+          p.parrafo Lorem, ipsum dolor sit amet consectetur adipisicing elit. In distinctio accusantium quo ex officiis dolorem ad eius voluptas corrupti,
+        .col-lg-3.text-left.text-lg-center.feature.tarjeta
+          img(src="../img/imagenes/html.png", alt="").loguito
+          h5.titulo HTML 5
+          p.parrafo Lorem, ipsum dolor sit amet consectetur adipisicing elit. In distinctio accusantium quo ex officiis dolorem ad eius voluptas corrupti,
+        .col-lg-3.text-left.text-lg-center.feature.tarjeta
+          img(src="../img/imagenes/css3.png", alt="").loguito
+          h5.titulo CSS 3
+          p.parrafo Lorem, ipsum dolor sit amet consectetur adipisicing elit. In distinctio accusantium quo ex officiis dolorem ad eius voluptas corrupti,
+  
+  section.seccion
+    .container.tercero
+      .row.d-flex
+        .col-md-6
+          .preamble.text-left
+            h3.tittle Corpus Builder
+            p.lead Our corpus builder includes powerful editing features such as removing blank lines, stop words, punctuation, and more.
+          ul.tour__list.list-unstyled
+            li.d-flex.align-items-center
+              i.icon.icon-ok
+                span Import .txt, .pdf, and .doc Documents
+            li.d-flex.align-items-center
+              i.icon.icon-ok
+                span Bring in your tweets and slack messages
+            li.d-flex.align-items-center
+              i.icon.icon-ok
+                span Process all of your text in the browser
+            li.d-flex.align-items-center
+              i.icon.icon-ok
+                span Export your processed text data
+        .col-md-6.imagen
+
+    .container.cuarto
+      .row.d-flex
+        .col-md-6.imagen2
+        .col-md-6
+          .preamble.text-left
+            h3.tittle Analyze Multiple Corpora
+            p.lead Create custom corpora lists to analyze multiple corpora at scale.
+          ul.tour__list.list-unstyled
+            li.d-flex.align-items-center
+              i.icon.icon-ok
+                span Compare Features across Corpora
+            li.d-flex.align-items-center
+              i.icon.icon-ok
+                span Visualize features in tables and graphs
+            li.d-flex.align-items-center
+              i.icon.icon-ok
+                span View highlighted entities in your text
+            li.d-flex.align-items-center
+              i.icon.icon-ok
+                span Export results in multiple formats
+
+  section.otra
+    .container
+      .preamble
+        h3.tittle Choke Full of NLP Features
+        p.lead Lorem ipsum dolor sit, amet consectetur adipisicing elit. Officiis quae est optio dolorem tenetur adipisci facere eum iste debitis. Magni perferendis labore aperiam rem delectus, consequuntur voluptatibus vel doloremque? Velit!
+
+
+  section
+    .container.forum#SignUp
+      .row
+        .col-md-12
+          input(type="text" name="name" placeholder="Name").form-control.campo
+          input(type="text" name="email" placeholder="Email").form-control.campo
+          input(type="text" name="password" placeholder="Pasword").form-control.campo
+          button(type="submit").main-content__form.btn.btn--blue.btn-md.boton Free Sign Up
+
 
 block footer
-  //- include ../templates/partials/footer.pug    
+  include ../templates/partials/footer.pug    
