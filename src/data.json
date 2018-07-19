@@ -36,5 +36,54 @@
       "color":        "azul",
       "video" :       "paciente-4.jpg"
     }
+  ],
+
+  "cards":[
+    {
+      "url":          "img/imagenes/bootstrap.png",
+      "tittle":       "Bootstrap",
+      "lead":         "Lorem, ipsum dolor sit amet consectetur adipisicing elit. In distinctio accusantium quo ex officiis dolorem ad eius voluptas corrupti,"
+    },
+    {
+      "url":          "img/imagenes/html.png",
+      "tittle":       "HTML 5",
+      "lead":         "Lorem, ipsum dolor sit amet consectetur adipisicing elit. In distinctio accusantium quo ex officiis dolorem ad eius voluptas corrupti,"
+    },
+    {
+      "url":          "img/imagenes/css3.png",
+      "tittle":       "CSS 3",
+      "lead":         "Lorem, ipsum dolor sit amet consectetur adipisicing elit. In distinctio accusantium quo ex officiis dolorem ad eius voluptas corrupti,"
+    }
+  ],
+
+  "lists":[
+    {
+      "element":      "Import .txt, .pdf, and .doc Documents"
+    },
+    {
+      "element":      "Bring in your tweets and slack messages"
+    },
+    {
+      "element":      "Process all of your text in the browser"
+    },
+    {
+      "element":      "Export your processed text data"
+    }
+  ],
+
+  "lists2":[
+    {
+      "element":      "Compare Features across Corpora"
+    },
+    {
+      "element":      "Visualize features in tables and graphs"
+    },
+    {
+      "element":      "View highlighted entities in your text"
+    },
+    {
+      "element":      "Export results in multiple formats"
+    }
   ]
+
 }
