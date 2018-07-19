@@ -23,3 +23,4 @@ Desde consola, teniendo instalado nodejs con npm ejecutas:
 > gulp build # Genera/Constuye proyecto [www]
 > gulp serve # Servidor 
 ```
+# Textalytic
