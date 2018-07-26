@@ -1,23 +1,20 @@
 footer {
-  margin-top: 150px;
+  margin-top: 50px;
+  margin-bottom: 10px;
 }
 
-.footer__colum1{
-  text-align: start;
-}
-
-.footer_copirights{
-  font-size: 15px;
-  color: rgba(255,255,255,.8);
-  
-}
-
-.footer__colum2{
+.footer__colum1,
+.footer__colum2,
+.footer__colum3
+{
   text-align: center;
 }
 
-.footer__colum3{
-  text-align: end;
+.footer_copirights{
+  margin-bottom: 0;
+  font-size: 15px;
+  color: rgba(255,255,255,.8);
+  
 }
 
 .footer_link{

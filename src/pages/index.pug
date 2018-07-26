@@ -23,7 +23,7 @@ block content
 
     .container.container__text    
       .row.d-flex.justify-content-center
-        .col-md-12.preamble
+        .col-md-12.col-xs-12.preamble
           h3.preamble__tittle Textalytic provides a fully featured text analysis platform!
           p.preamble__lead Text Analysis is a complex and specialized task. Textalytic makes it super simple to extract insight from textual content.
 
@@ -59,13 +59,13 @@ block content
 
 
   section
-    .container.d-flex.justify-content-center.signup__container
-      .row
-        .col-md-12.d-flex.justify-content-between
-          input(type="text" name="name" placeholder="Name").form-control.signup__container__input
-          input(type="text" name="email" placeholder="Email").form-control.signup__container__input
-          input(type="text" name="password" placeholder="Pasword").form-control.signup__container__input
-          button(type="submit").main-content__form.btn.btn--blue.btn-md.signup__container__button Free Sign Up
+    .container
+      .signup__container
+        form(action="POST").formulario
+          input(type="text" name="email" placeholder="Email").form-control.signup__container__input.col-xs-12
+          input(type="text" name="name" placeholder="Name").form-control.signup__container__input.col-xs-12
+          input(type="text" name="password" placeholder="Pasword").form-control.signup__container__input.col-xs-12
+          button(type="submit").btn.btn--blue.signup__container__button.col-xs-12 Free Sign Up
 
 
 block footer
